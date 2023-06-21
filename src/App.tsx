@@ -4,11 +4,11 @@ import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <>
+    <div className="sides" style={{ textAlign: "center" }}>
       <SideBar />
       <CenterBar />
-      <NewsBar />
-    </>
+      <NewsBar id="disapr" />
+    </div>
   );
 }
 

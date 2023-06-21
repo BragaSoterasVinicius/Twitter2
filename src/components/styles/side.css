@@ -1,0 +1,23 @@
+#general{
+    width: 20%;
+    background-color: antiquewhite;  
+
+}
+#middle{
+    background-color: aquamarine;
+    width:100%;
+}
+.neue{
+    background-color:crimson;
+    color: aliceblue;
+    width:10%
+
+}
+@media (max-width: 800px){
+    .neue{
+        display: none;
+    }
+}
+.sides{
+    display: flex;
+}
