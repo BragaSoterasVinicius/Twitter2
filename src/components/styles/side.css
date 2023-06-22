@@ -1,21 +1,46 @@
 #general{
     width: 20%;
-    background-color: antiquewhite;  
-
+    border-style: double;
+    border-color: black; 
+    text-align: right;
 }
 #middle{
-    background-color: aquamarine;
     width:100%;
+    border-style: double;
+    border-color: black;
 }
 .neue{
-    background-color:crimson;
-    color: aliceblue;
-    width:10%
-
+    width:10%;
+    border-style: double;
+    border-color: black;
+}
+.blockPost{
+    border-style: double;
+    border-color: black;
+    text-align: left;
+    height: 160px;
+    font-size: 30px;
+}
+.block{
+    border-style: double;
+    border-color: black;
 }
 @media (max-width: 800px){
     .neue{
         display: none;
+    }
+}
+@media (max-width: 1240px){
+    .bigger{
+        display: none;
+    }
+    .smaller{
+        display:block;
+    }
+}
+@media (min-width: 1240px){
+    .smaller{
+        display:none;
     }
 }
 .sides{
