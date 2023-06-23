@@ -37,7 +37,7 @@ function SideBar() {
   <button className="" onClick={abrirJan()}></button>*/}
       </div>
 
-      <div id="general" className="smaller">
+      <div id="general" className="smaller" style={{ textAlign: "center" }}>
         <h1>TL</h1>
         <a className="" href="explore">
           H
