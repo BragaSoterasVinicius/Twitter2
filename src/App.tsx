@@ -7,7 +7,7 @@ function App() {
     <div className="sides" style={{ textAlign: "center" }}>
       <SideBar />
       <CenterBar />
-      <NewsBar id="disapr" />
+      <NewsBar />
     </div>
   );
 }

@@ -28,7 +28,6 @@ function PostInput({ onAddPost }) {
         <div className="block">name</div>
         <div className="block" style={{ position: "relative" }}>
           <textarea
-            type="text"
             value={inputValue}
             onChange={handleInputChange}
             placeholder="O que está acontecendo???"
