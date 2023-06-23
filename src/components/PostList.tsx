@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/side.css";
 function PostList({ posts }) {
   return (

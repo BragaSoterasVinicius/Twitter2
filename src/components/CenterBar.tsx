@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./styles/side.css";
 import PostInput from "./PostInput";
 import PostList from "./PostList";
