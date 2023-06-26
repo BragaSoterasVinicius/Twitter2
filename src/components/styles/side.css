@@ -9,6 +9,15 @@
     border-style: double;
     border-color: black;
 }
+#top{
+    top: 0px;
+    text-align: left;
+    height: 80px;
+}
+#scrollabe{
+    overflow-y: auto;
+    height: 500px;
+}
 .neue{
     width:10%;
     border-style: double;

@@ -16,10 +16,6 @@ function PostInput({ onAddPost }) {
 
   return (
     <div>
-      <div className="block" style={{ textAlign: "left" }}>
-        {" "}
-        <h3>Página inicial</h3>
-      </div>
       <div
         style={{ display: "inline-flex" }}
         className="blockPost"
@@ -39,12 +35,15 @@ function PostInput({ onAddPost }) {
               width: "100%",
               position: "absolute",
               bottom: "0",
-              textAlign: "right",
             }}
           >
-            <button onClick={handleSubmit} style={{ marginRight: "0%" }}>
-              post
-            </button>
+            <div style={{ display: "inline-flex", width: "100%" }}>
+              <div style={{ width: "100%" }}>icons</div>
+              <></>
+              <button onClick={handleSubmit} style={{ width: "100%" }}>
+                post
+              </button>
+            </div>
           </div>
         </div>
       </div>

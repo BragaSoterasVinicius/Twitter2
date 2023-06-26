@@ -11,8 +11,14 @@ function CenterBar() {
 
   return (
     <div id="middle">
-      <PostInput onAddPost={addPost} />
-      <PostList posts={posts} />
+      <div className="block" id="top">
+        {" "}
+        <h3 style={{ marginLeft: "10px", marginTop: "5px" }}>Página inicial</h3>
+      </div>
+      <div id="scrollabe">
+        <PostInput onAddPost={addPost} />
+        <PostList posts={posts} />
+      </div>
     </div>
   );
 }
