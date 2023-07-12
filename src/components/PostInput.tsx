@@ -22,16 +22,17 @@ function PostInput({ onAddPost }) {
         id="posting"
       >
         <div className="block">name</div>
-        <div className="block" style={{ position: "relative" }}>
+        <div className="block" style={{ position: "relative", width: "100%" }}>
           <textarea
             value={inputValue}
             onChange={handleInputChange}
             placeholder="O que está acontecendo???"
-            style={{ height: "100%", fontSize: "19px" }}
+            style={{ height: "60%", width: "100%", fontSize: "19px" }}
           ></textarea>
           <div
             className="block"
             style={{
+              height: "40%",
               width: "100%",
               position: "absolute",
               bottom: "0",
