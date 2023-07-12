@@ -38,9 +38,13 @@ function PostInput({ onAddPost }) {
             }}
           >
             <div style={{ display: "inline-flex", width: "100%" }}>
-              <div style={{ width: "100%" }}>icons</div>
+              <div style={{ width: "100%" }}></div>
               <></>
-              <button onClick={handleSubmit} style={{ width: "100%" }}>
+              <button
+                type="submit"
+                onClick={handleSubmit}
+                style={{ width: "100%" }}
+              >
                 post
               </button>
             </div>
