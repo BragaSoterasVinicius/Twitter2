@@ -34,6 +34,9 @@ function SideBar() {
       </button>
       <a className="" href="user"></a>
   <button className="" onClick={abrirJan()}></button>*/}
+        <div id="placelow">
+          <h1>perfil img</h1>
+        </div>
       </div>
 
       <div id="general" className="smaller" style={{ textAlign: "center" }}>
@@ -67,6 +70,9 @@ function SideBar() {
       </button>
       <a className="" href="user"></a>
   <button className="" onClick={abrirJan()}></button>*/}
+        <div id="placelow">
+          <img src="/imgs/vicotiran.png" alt="perfil" />
+        </div>
       </div>
     </>
   );

@@ -28,6 +28,7 @@ body{
     height: 80px;
     opacity: 90%;
     background-color: aliceblue;
+    backdrop-filter: blur(5px);
 }
 #scrollabe{
     overflow-y: auto;
@@ -71,4 +72,9 @@ body{
 .sides{
     height: 100%;
     display: flex;
+}
+
+#placelow{
+    position: absolute;
+    bottom: 0px;
 }
